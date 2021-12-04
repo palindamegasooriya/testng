@@ -4,6 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import java.sql.SQLOutput;
+
 public class Softassert {
 
     @Test
@@ -29,6 +31,8 @@ public class Softassert {
 
         //to report all faliures
         sa.assertAll();
+
+        System.out.println("Hi");
 
 
 
