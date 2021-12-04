@@ -8,6 +8,6 @@ public class Assertion {
     public void check() {
         String a="painda";
         String b="painda";
-        Assert.assertEquals(a,b);
+        Assert.assertNotEquals(a,b);
     }
 }
