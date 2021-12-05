@@ -21,7 +21,7 @@ public class Softassert {
 
         System.out.println("compare name");
 
-        //messege only show when assertion fails.
+        //messege display only show when assertion fails.
         sa.assertEquals(actualname,expectedname,"name not match");
 
         System.out.println("compare age");

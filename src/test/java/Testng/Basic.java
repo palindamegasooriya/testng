@@ -3,17 +3,17 @@ package Testng;
 import org.testng.annotations.*;
 
 public class Basic {
-    @Test(priority = 1)
+    @Test(priority = 1, groups = "one")
     public void atest() {
         System.out.println("atest");
     }
 
-    @Test(priority = 0)
+    @Test(priority = 0, groups = "one")
     public void btest() {
         System.out.println("btest");
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, groups = "two")
     public void ctest() {
         System.out.println("ctest");
     }
