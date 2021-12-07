@@ -1,0 +1,14 @@
+<suite name="Regression" verbose="1" >
+    <test name="Nopackage" >
+        <groups>
+            <run>
+                <include name="one"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Testng.Basic"/>
+            <class name="Testng.Assertion"/>
+        </classes>
+    </test>
+</suite>
