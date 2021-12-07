@@ -18,6 +18,10 @@ public class Basic {
         System.out.println("ctest");
     }
 
+    @BeforeGroups(value = "one")
+    public void beforegroup() {
+        System.out.println("before group");
+    }
 
     @BeforeClass
     public void login() {System.out.println("login");}
