@@ -2,7 +2,7 @@ package Testng;
 
 import org.testng.annotations.*;
 
-public class Basic {
+public class Basic extends Beforeaftersuit{
     @Test(priority = 1, groups = "one")
     public void atest() {
         System.out.println("atest");

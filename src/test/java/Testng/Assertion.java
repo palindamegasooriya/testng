@@ -3,7 +3,7 @@ package Testng;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Assertion {
+public class Assertion extends Beforeaftersuit{
     @Test(groups = "one")
     public void check() {
         String a="painda";

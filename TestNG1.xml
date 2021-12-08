@@ -1,0 +1,9 @@
+<suite name="Suite1" verbose="1" >
+    <test name="suitone" >
+        <classes>
+            <class name="Testng.Suit1" />
+            <class name="Testng.Suit2" />
+        </classes>
+    </test>
+
+</suite>
