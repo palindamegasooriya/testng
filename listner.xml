@@ -1,0 +1,10 @@
+<suite name="Suit" verbose="1" >
+    <listeners>
+        <listener class-name="Testng.Listner" />
+    </listeners>
+    <test name="Nopackage" >
+        <classes>
+            <class name="Testng.Effectlistner"/>
+        </classes>
+    </test>
+</suite>
