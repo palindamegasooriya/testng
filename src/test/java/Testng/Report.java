@@ -13,6 +13,6 @@ public class Report {
 
     @Test
     public void btest() {
-        System.out.println("btest");
+        System.out.println("btdgest");
     }
 }
