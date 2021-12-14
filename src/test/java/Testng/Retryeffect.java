@@ -8,6 +8,6 @@ public class Retryeffect {
     @Test(retryAnalyzer = Retry.class)
     public void retry() {
         System.out.println("Hello");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 }
