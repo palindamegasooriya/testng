@@ -9,5 +9,6 @@ public class Assertion extends Beforeaftersuit{
         String a="painda";
         String b="paida";
         Assert.assertNotEquals(a,b);
+        System.out.println("OK");
     }
 }
